@@ -17,7 +17,7 @@
         catch(PDOException $e) {
             echo "". $e->getMessage();
         }
-        $sql = "SELECT * FROM client";
+        $sql = "SELECT mail FROM users";
         $requete = $connexion->query($sql);
         $user = $requete->fetchAll();
         for( $i = 0; $i < count($user); $i++ ) {
@@ -28,19 +28,7 @@
             }
         
         }
-        $sql1 = "SELECT mail FROM users";
-        $requete = $connexion->query($sql1);
-        $user = $requete->fetchAll();
-        for( $i = 0; $i < count($user); $i++ ) {
-            foreach($user[$i] as $key => $value) {
-                if($value == $mail) {
-                    $compteur++;
-                }
-            }
-        
-        }
         return $compteur;
-        
     }
     function secuSql($mot){
         $regex1 = "select";

@@ -1,0 +1,26 @@
+21/02/2024 10:23:00 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'oiseconstruction'; elle existe déjà
+21/02/2024 10:23:00 : SQLSTATE[HY000] [1049] Base 'luisimmo' inconnue
+21/02/2024 10:23:32 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'oiseconstruction'; elle existe déjà
+21/02/2024 10:23:32 : SQLSTATE[HY000] [1049] Base 'luisimmo' inconnue
+21/02/2024 09:25:05 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'bien VARCHAR(100) NOT NULL,
+        surface terrain	VARCHAR(200) NOT NULL,
+   ' à la ligne 6
+21/02/2024 10:26:06 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'luisimmo'; elle existe déjà
+21/02/2024 10:26:06 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+21/02/2024 09:26:24 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'bien VARCHAR(100) NOT NULL,
+        surface terrain	VARCHAR(200) NOT NULL,
+   ' à la ligne 6
+21/02/2024 09:29:28 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'bien VARCHAR(100) NOT NULL,
+        surface terrain	VARCHAR(200) NOT NULL,
+   ' à la ligne 6
+21/02/2024 09:32:31 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'bien VARCHAR(100) NOT NULL,
+        surface terrain	VARCHAR(200) NOT NULL,
+   ' à la ligne 6
+21/02/2024 09:32:59 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'bien VARCHAR(100) NOT NULL,
+        surface terrain	VARCHAR(200) NOT NULL,
+   ' à la ligne 6
+21/02/2024 10:35:16 : SQLSTATE[HY000]: General error: 1007 Ne peut créer la base 'luisimmo'; elle existe déjà
+21/02/2024 10:35:16 : SQLSTATE[42S01]: Base table or view already exists: 1050 La table 'users' existe déjà
+21/02/2024 09:35:32 : SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'bien VARCHAR(100) NOT NULL,
+        surface terrain	VARCHAR(200) NOT NULL,
+   ' à la ligne 6
