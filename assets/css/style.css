@@ -1,0 +1,194 @@
+:root {
+    --noir: rgb(0, 0, 0);
+    --blanc: rgb(255, 255, 255);
+    --bleu: rgb(38, 73, 168);
+    /* Liste des couleurs du site */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'FS Joey';
+    src: url("./fonts/FS-Joey-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: 'FS Joey';
+}
+
+header {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    background-color: var(--bleu);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+}
+
+.menu {
+    position: relative;
+}
+
+.menu li {
+    width: 120px;
+    list-style: none;
+    padding: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--blanc);
+}
+
+.menu li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--noir);
+    scale: 1.35;
+}
+
+.menu img {
+    width: 80px;
+    margin-left: 50px;
+    height: 80px;
+}
+
+nav .menu .position .smenu {
+    position: absolute;
+    display: none;
+    background-color: var(--bleu);
+}
+
+nav .menu .position:hover .smenu {
+    display: block;
+    height: 130px;
+}
+
+/*-----------------------------------BANNIERE-----------------------------------*/
+
+.mere {
+    position: relative;
+}
+
+.mere img {
+    width: 100%;
+    height: 75vh;
+}
+
+.enfant {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+
+.enfant h1 {
+    font-size: 90px;
+    color: var(--noir);
+    /* text-align: center; */
+}
+
+h2 {
+    font-size: 40px;
+    color: var(--bleu);
+    text-align: center;
+}
+
+#annonces {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.bien {
+    margin: 3px;
+    width: 30%;
+}
+
+.bien:hover {
+    scale: 1.2;
+}
+
+.texte p {
+    font-size: 20px;
+    color: var(--bleu);
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------FOOTER-----------------------------------*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bleu);
+    color: var(--noir);
+    width: 100%;
+}
+
+footer img {
+    width: 80px;
+}
+
+footer div {
+    margin: 10px;
+}
+
+footer .pep a {
+    color: var(--noir);
+}
+
+footer ul li a {
+    color: var(--noir);
+}
+
+#fb,
+#insta {
+    font-size: 30px;
+    color: var(--noir);
+}
